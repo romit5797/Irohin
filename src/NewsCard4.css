@@ -1,0 +1,123 @@
+
+.post-block--unread:focus, .post-block--unread:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+.post-block {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1.425em;
+    padding-top: 1.425em;
+    border-top: 2px solid #f1f1f1;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    transition: all .2s ease .1s;
+    opacity: 1;
+}
+
+.post-block__footer {
+    margin-bottom: 0;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+    flex-basis: 67.5%;
+    flex-shrink: 0;
+}
+
+.post-block__media {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-block__header {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+    flex-basis: 28%;
+    min-width: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    
+}
+
+.featured-article__label {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.featured-article__label__text {
+    padding-top: 3px;
+    font-size: 18px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.gradient-text--green-gradient{
+    background-color: #96c8fb;
+background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+}    
+.post-block__title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: .25em;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 800;
+    line-height: 1.09;
+    letter-spacing: -.7px;
+    color: #000;
+}
+
+.post-block__title__link {
+    color: inherit;
+}
+
+.post-block__content {
+    font-size: 14px;
+    flex-shrink: 0;
+    display: block;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.43;
+    color: #777;
+    flex-basis: 0;
+    margin: 15px 0 30px;
+}
+
+.post-block__meta {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.river-byline {
+    font-size: 13px;
+    font-family: aktiv-grotesk,sans-serif;
+    line-height: 1.54;
+}
+
+.river-byline__authors {
+    font-weight: 700;
+    line-height: 1.23;
+    color: #333;
+}
+
+.river-byline__authors a {
+    color: inherit;
+}
+
+.river-byline__full-date-time {
+    color: #777;
+}
+
+.full-date-time__separator {
+    margin-left: 3px;
+    margin-right: 3px;
+}

@@ -1,0 +1,56 @@
+.feature-island-main-block:hover  {
+    opacity: 0.6;
+}
+
+.mainblock{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.feature-island-main-block {
+    flex-basis: 65%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-right: 2%;
+    opacity: 1;
+    transition: opacity .15s linear;
+}
+
+.fi-main-block__title {
+    font-size: 28px;
+    line-height: 1;
+    margin: 0 0 10px;
+    font-weight: 800;
+    letter-spacing: -.05em;
+}
+
+.fi-main-block__title a {
+    color: inherit;
+}
+
+.fi-main-block__byline {
+    font-size: 13px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.fi-main-block__byline a {
+    color: inherit;
+    border-bottom: 0;
+}
+
+.post-block__title__link {
+    color: inherit;
+}
+
+.post-block__media {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

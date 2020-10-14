@@ -1,0 +1,38 @@
+.mainblock:hover  {
+    opacity: 0.6;
+}
+
+.mini-view__item {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+    opacity: 1;
+    transition: opacity .15s linear;
+}
+
+.mini-view__item__title {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: .25em;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 800;
+    line-height: 1.11;
+    letter-spacing: -.7px;
+    color: #000;
+}
+
+.mini-view__item__title a {
+    color: #000;
+}
+
+.fi-main-block__byline {
+    font-size: 13px;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0;
+}
+
+.fi-main-block__byline a {
+    color: inherit;
+    border-bottom: 0;
+}
