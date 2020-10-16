@@ -1,0 +1,83 @@
+
+.flex-container {
+    display: flex;
+    margin:10px;
+  }
+
+.flex-container:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+  
+  .flex-container2 {
+      -webkit-box-flex: 0;
+      flex-grow: 0;
+      -webkit-box-align: center;
+      align-items: center;
+      flex-basis: 10%;
+    
+  }
+  
+.flex-container3 {
+      margin-left:5px;
+      flex-basis: 90%;
+      line-height: 1.3125;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe 	  UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+      overflow-wrap: break-word;
+      min-width: 0px;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   
+  }
+  
+  .avatar{
+      border-radius:50%;
+      width:49px;
+      height:49px;
+  }
+  
+  .post-img{
+      width:100%;
+      height:auto;
+  }
+  
+  .post-body{
+      color: rgb(20, 23, 26);
+      font-weight: 400;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe 	  UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+      overflow-wrap: break-word;
+      min-width: 0px;
+      line-height: 1.3125;
+      position: relative;
+  }
+
+.post-replyingto{
+    color: rgb(101, 119, 134);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe     UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    line-height: 1.3125;
+    white-space: nowrap;
+  }
+  
+  .post-username{
+      color: rgb(101, 119, 134);
+      font-weight: 400;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe     UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+      overflow-wrap: break-word;
+      min-width: 0px;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      flex-direction: row;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
